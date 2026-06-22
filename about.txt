@@ -1,0 +1,11 @@
+# 1. Install everything
+pip install -r requirements.txt
+
+# 2. Explore your data
+python notebooks/eda.py
+
+# 3. Train and evaluate models
+python src/train.py
+
+# 4. Launch the web app
+streamlit run app.py
